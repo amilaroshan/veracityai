@@ -37,7 +37,7 @@ const Navbar = () => {
               height={40}
               className="h-8 w-auto"
             />
-            <div className="flex gap-2">
+            {/* <div className="flex gap-2">
               <a
                 href="/alternative"
                 className="text-xs px-3 py-1 bg-primary/10 text-primary rounded-full hover:bg-primary/20 transition-colors"
@@ -50,7 +50,7 @@ const Navbar = () => {
               >
                 Mono Style
               </a>
-            </div>
+            </div> */}
           </motion.div>
 
           {/* Desktop Menu */}
