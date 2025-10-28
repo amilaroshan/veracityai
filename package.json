@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:cf": "next-on-pages build",
+    "preview:cf": "next-on-pages build && echo Built to .vercel/output/static",
     "start": "next start",
     "lint": "next lint"
   },
@@ -17,6 +19,7 @@
     "react-icons": "^4.11.0"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.13.5",
     "@types/node": "^20.8.0",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
